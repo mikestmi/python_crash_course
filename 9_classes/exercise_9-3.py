@@ -6,7 +6,6 @@ class User:
         self.age = age
         self.location = location
 
-
     def describe_user(self):
         """Print a neatly formatted description of the user."""
         description = f"The user {self.first_name.title()} {self.last_name.title()} is {self.age} and lives in {self.location.title()}."
